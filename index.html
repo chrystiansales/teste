@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Secretaria de Estado da Educação - Portal oficial com informações sobre programas, notícias, serviços e recursos educacionais.">
+    <title>Secretaria da Educação | Governo do Estado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <span class="top-bar-text">Portal Oficial do Governo do Estado</span>
+                <div class="top-bar-links">
+                    <a href="#" aria-label="Alto Contraste"><i class="fas fa-adjust"></i></a>
+                    <a href="#" aria-label="Aumentar Fonte"><i class="fas fa-search-plus"></i></a>
+                    <a href="#" aria-label="Diminuir Fonte"><i class="fas fa-search-minus"></i></a>
+                    <a href="#" class="top-link">Acessibilidade</a>
+                    <a href="#" class="top-link">Mapa do Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-gov">GOVERNO DO ESTADO</span>
+                        <span class="logo-sec">Secretaria da Educação</span>
+                    </div>
+                </a>
+                
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Abrir menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <nav class="main-nav" id="mainNav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Institucional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Consultas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contatos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Mais <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Podcast</a></li>
+                                <li><a href="#">Licitações e Contratos</a></li>
+                                <li><a href="#">Escolas Integrais</a></li>
+                                <li><a href="#">Política de Privacidade</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header-search">
+                    <button class="search-toggle" aria-label="Buscar">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: linear-gradient(135deg, #00457c 0%, #0066a4 100%);">
+                <div class="container">
+                    <div class="hero-content">
+                        <span class="hero-tag">Destaque</span>
+                        <h1>Pré-matrícula 2026 já está disponível</h1>
+                        <p>Garanta a vaga do seu filho na Rede Estadual de Ensino. Inscrições abertas para todos os níveis.</p>
+                        <a href="#" class="btn btn-primary">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-dots">
+            <button class="dot active" aria-label="Slide 1"></button>
+            <button class="dot" aria-label="Slide 2"></button>
+            <button class="dot" aria-label="Slide 3"></button>
+        </div>
+    </section>
+
+    <!-- Quick Access -->
+    <section class="quick-access">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-bolt"></i>
+                Acesso Rápido
+            </h2>
+            <div class="quick-grid">
+                <a href="#" class="quick-item">
+                    <div class="quick-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <span>Licitações e Contratos</span>
+                </a>
+                <a href="#" class="quick-item">
+                    <div class="quick-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <span>Editais</span>
+                </a>
+                <a href="#" class="quick-item">
+                    <div class="quick-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <span>Consultas</span>
+                </a>
+                <a href="#" class="quick-item">
+                    <div class="quick-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <span>Programas</span>
+                </a>
+                <a href="#" class="quick-item">
+                    <div class="quick-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <span>Escolas</span>
+                </a>
+                <a href="#" class="quick-item">
+                    <div class="quick-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <span>Gerências Regionais</span>
+                </a>
+                <a href="#" class="quick-item">
+                    <div class="quick-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <span>Serviços</span>
+                </a>
+                <a href="#" class="quick-item">
+                    <div class="quick-icon">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <span>Portal do Servidor</span>
+                </a>
+                <a href="#" class="quick-item">
+                    <div class="quick-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <span>Ouvidoria</span>
+                </a>
+                <a href="#" class="quick-item">
+                    <div class="quick-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <span>Contatos</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-newspaper"></i>
+                    Últimas Notícias
+                </h2>
+                <a href="#" class="view-all">Ver todas <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="news-grid">
+                <!-- Featured News -->
+                <article class="news-card featured">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=500&fit=crop" alt="Estudantes em sala de aula">
+                        <span class="news-badge">Destaque</span>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date"><i class="far fa-calendar-alt"></i> 14 de Dezembro, 2024</span>
+                        <h3>Educação inicia pré-matrícula para 2026 na Rede Estadual</h3>
+                        <p>O processo de pré-matrícula para o ano letivo de 2026 já está disponível para alunos novos e transferências na Rede Estadual de Ensino.</p>
+                        <a href="#" class="news-link">Leia mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Regular News Cards -->
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=400&h=250&fit=crop" alt="Projeto escolar">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date"><i class="far fa-calendar-alt"></i> 13 de Dezembro, 2024</span>
+                        <h3>"Antes que Aconteça nas Escolas": Parceria de prevenção à violência</h3>
+                        <p>Secretaria firma parceria com projeto de prevenção de violência contra a mulher.</p>
+                        <a href="#" class="news-link">Leia mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=400&h=250&fit=crop" alt="Estudantes premiados">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date"><i class="far fa-calendar-alt"></i> 12 de Dezembro, 2024</span>
+                        <h3>Estudantes recebem bicicletas em premiação do concurso "Pedalando para o Futuro"</h3>
+                        <p>Alunos da rede estadual são premiados no concurso de maquetes sustentáveis.</p>
+                        <a href="#" class="news-link">Leia mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=400&h=250&fit=crop" alt="Merendeiras premiadas">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date"><i class="far fa-calendar-alt"></i> 11 de Dezembro, 2024</span>
+                        <h3>Governo premia melhores merendeiras no concurso "Sabor que Ensina"</h3>
+                        <p>Primeira edição do concurso valoriza profissionais da alimentação escolar.</p>
+                        <a href="#" class="news-link">Leia mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-rocket"></i>
+                    Programas
+                </h2>
+                <a href="#" class="view-all">Ver todos <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="programs-grid">
+                <a href="#" class="program-card" style="--card-color: #2ecc71;">
+                    <div class="program-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Escola Cidadã Integral</h3>
+                    <p>Educação em tempo integral com foco no projeto de vida dos estudantes.</p>
+                </a>
+
+                <a href="#" class="program-card" style="--card-color: #e74c3c;">
+                    <div class="program-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Geração Protagonista</h3>
+                    <p>Programa de protagonismo juvenil e liderança estudantil.</p>
+                </a>
+
+                <a href="#" class="program-card" style="--card-color: #9b59b6;">
+                    <div class="program-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Educação Digital</h3>
+                    <p>Integração de tecnologia e inovação no ambiente escolar.</p>
+                </a>
+
+                <a href="#" class="program-card" style="--card-color: #f39c12;">
+                    <div class="program-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Alimentação Escolar</h3>
+                    <p>Programa de alimentação saudável para estudantes da rede.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="stat-number" data-target="650">0</div>
+                    <div class="stat-label">Escolas Estaduais</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="stat-number" data-target="280000">0</div>
+                    <div class="stat-label">Estudantes Matriculados</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="stat-number" data-target="18500">0</div>
+                    <div class="stat-label">Professores</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="stat-number" data-target="223">0</div>
+                    <div class="stat-label">Municípios Atendidos</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section class="videos-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fab fa-youtube"></i>
+                    Vídeos
+                </h2>
+                <a href="https://www.youtube.com/c/EducacaoGovPB/videos" target="_blank" class="view-all">Ver todos <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="videos-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&h=225&fit=crop" alt="Vídeo institucional">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h4>Institucional da Secretaria da Educação</h4>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&h=225&fit=crop" alt="Escolas integrais">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h4>Escolas Cidadãs Integrais</h4>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&h=225&fit=crop" alt="Programas educacionais">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h4>Programas Educacionais 2024</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-section">
+        <div class="container">
+            <h2 class="section-title centered">
+                <i class="fas fa-share-alt"></i>
+                Siga-nos nas Redes Sociais
+            </h2>
+            <div class="social-grid">
+                <a href="https://www.facebook.com/educacaogovpb/" target="_blank" class="social-card facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Facebook</span>
+                    <small>@educacaogovpb</small>
+                </a>
+                <a href="https://www.instagram.com/educacaogovpb/" target="_blank" class="social-card instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                    <small>@educacaogovpb</small>
+                </a>
+                <a href="https://twitter.com/educacaogovpb" target="_blank" class="social-card twitter">
+                    <i class="fab fa-x-twitter"></i>
+                    <span>X (Twitter)</span>
+                    <small>@educacaogovpb</small>
+                </a>
+                <a href="https://www.youtube.com/c/EducacaoGovPB" target="_blank" class="social-card youtube">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                    <small>EducacaoGovPB</small>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-landmark"></i>
+                        <div>
+                            <span class="footer-gov">GOVERNO DO ESTADO</span>
+                            <span class="footer-sec">Secretaria da Educação</span>
+                        </div>
+                    </div>
+                    <p class="footer-address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Centro Administrativo Estadual<br>
+                        Av. Dr. João da Mata, nº 200 - Bloco 1<br>
+                        Jaguaribe - João Pessoa/PB<br>
+                        CEP: 58015-900
+                    </p>
+                    <p class="footer-phone">
+                        <i class="fas fa-phone"></i>
+                        (83) 3612-5600 / 3612-5601
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#">Institucional</a></li>
+                        <li><a href="#">Notícias</a></li>
+                        <li><a href="#">Licitações e Contratos</a></li>
+                        <li><a href="#">Escolas Integrais</a></li>
+                        <li><a href="#">Programas</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#">Portal do Servidor</a></li>
+                        <li><a href="#">Consultas</a></li>
+                        <li><a href="#">Ouvidoria</a></li>
+                        <li><a href="#">Editais</a></li>
+                        <li><a href="#">Contatos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Governo do Estado</h4>
+                    <ul>
+                        <li><a href="#">Governadoria</a></li>
+                        <li><a href="#">Secretarias</a></li>
+                        <li><a href="#">Transparência</a></li>
+                        <li><a href="#">Marca do Governo</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Secretaria de Estado da Educação. Todos os direitos reservados.</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/educacaogovpb/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/educacaogovpb/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/educacaogovpb" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/c/EducacaoGovPB" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
